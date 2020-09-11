@@ -1,0 +1,27 @@
+html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#section-accueil {
+	background-size: auto;
+	height: 95vh;
+	background-image: url('img/picture_7.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#Notre-histoire {
+	min-height: 50vh;
+}
+
+#section-programme {
+	height: 50vh;
+}
+#section-cadeau {
+	height: 50vh;
+}
