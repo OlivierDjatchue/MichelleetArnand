@@ -15,8 +15,7 @@ body {
 #section-accueil {
 	background-size: auto;
 	height: 95vh;
-	background-image: linear-gradient(to top, rgba(255, 14, 10, 1.0), rgba(255, 255, 255, 0.2)),
-		url('img/picture_7.jpg');
+	background-image: linear-gradient(to top, #f85032, rgba(255, 255, 255, 0.2)), url('img/picture_7.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -45,24 +44,39 @@ body {
 }
 
 #Notre-histoire {
-	background: rgba(255, 14, 10, 1.0);
-	background: linear-gradient(to top, rgba(255, 14, 10, 1.0), rgba(255, 255, 255, 1.0));
 	min-height: 50vh;
+}
+
+.histoire {
+	border-radius: 20px;
+	padding: 1rem;
+	height: 100%;
+}
+.femme {
+	color: #eee;
+	background: #f85032;
+	background: linear-gradient(to left, #e73827, #f85032);
+	box-shadow: 5px 11px 50px rgba(0, 0, 0, 0.9);
+}
+.homme {
+	color: #eee;
+	background: #f85032;
+	background: linear-gradient(to right, #e73827, #f85032);
+
+	box-shadow: 5px 11px 50px rgba(0, 0, 0, 0.9);
 }
 .fas {
 	font-size: 1.8rem;
 	color: #ebbf4f;
 }
-
 #section-programme {
-	height: 50vh;
-	background: rgba(255, 14, 10, 1.0);
-	background: linear-gradient(to bottom, rgba(255, 14, 10, 1.0), rgba(255, 255, 255, 1.0));
+	min-height: 50vh;
+	color: #eee;
+	background-color: rgba(248, 80, 48);
 }
 .programe {
 	list-style: none;
 }
-
 .programe li {
 	margin-top: 1.5rem;
 }
