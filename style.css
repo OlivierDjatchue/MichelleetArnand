@@ -52,12 +52,14 @@ body {
 	padding: 1rem;
 	height: 100%;
 }
+
 .femme {
 	color: #eee;
 	background: #f85032;
 	background: linear-gradient(to left, #e73827, #f85032);
 	box-shadow: 5px 11px 50px rgba(0, 0, 0, 0.9);
 }
+
 .homme {
 	color: #eee;
 	background: #f85032;
