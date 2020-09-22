@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 html {
 	box-sizing: border-box;
@@ -18,8 +19,7 @@ body {
 #section-accueil {
 	background-size: auto;
 	height: 95vh;
-	background-image: url('img/picture_11.jpg');
-	/* linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.9)),*/
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/picture_11.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -143,8 +143,10 @@ body {
 #section-cadeau {
 	min-height: 80vh;
 	color: #eee;
-	background-image: url('img/cadeau_3.png');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/picture_13.jpg");
 	padding: 2rem 0;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .lien-cadeaux {
