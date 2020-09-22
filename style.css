@@ -33,16 +33,18 @@ body {
 	font-size: 5rem;
 	font-weight: 500;
 	font-family: 'Dancing Script', sans-serif;
-	color: #f85032;
+
+	color: #fff;
 }
 .sub-title {
 	font-style: italic;
 	font-size: 3rem;
-	font-weight: 300;
+	font-weight: 400;
 }
 .second-sub-title {
 	font-style: italic;
 	font-size: 1.6rem;
+	font-weight: 400;
 }
 .sections {
 	padding: 2rem 0;
