@@ -88,6 +88,15 @@ body {
 	}
 }
 
+@media screen and (max-width: 400px) {
+	.title_box {
+		padding-top: 62%;
+	}
+	.sub-title {
+		margin-top: 0;
+	}
+}
+
 .title {
 	font-size: 5rem;
 	font-weight: 500;
