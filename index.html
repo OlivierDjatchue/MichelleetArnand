@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
         <!-- Style CSS -->
         <link rel="stylesheet" href="style.css" />
@@ -15,42 +15,50 @@
         <link rel="stylesheet" href="grid.css" />
         <!-- AOS Animation -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+         <!-- Bootstrap Scripts -->
 
         <title>Michelle et Armand pour la vie</title>
     </head>
     <body>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Notre Histoire</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Le Programme</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Liste de Mariage</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contactez nous</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <div class="container-fluid" id="section-accueil">
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
-        <div class="sections" id="section-accueil">
-            <div class="container-fluid">
+            <a class="navbar-brand" href=""><img src="img/logo.png" /></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Notre-histoire">Notre Histoire</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-programme">Le Programme</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-cadeau">Liste de Mariage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-contact">Contactez nous</a>
+                </li>
+              </ul>
+
+            </div>
+          </nav>
+          <div class="title_box">
+            <div class="titles">
                 <h1 class="text-center title">Michelle et Armand</h1>
                 <h2 class="text-center sub-title" data-aos="zoom-in">Se Marient !</h2>
                 <h3 class="text-center second-sub-title" data-aos="fade-up" data-aos-delay="1000">Le 23 Janvier 2021</h3>
             </div>
         </div>
+
+        </div>
+        <!-- Nav Bar -->
+        
         <div class="sections" id="Notre-histoire">
             <div class="container">
                 <h1 class="text-center">Notre Histoire</h1>
@@ -153,15 +161,14 @@
                     </div>
                     <button type="submit" class="mybtn">Envoyer</button>
                 </form>
-                <!--Error/Sucess Message --> 
+          
 
             </div>
-    
-            
+
+
         </div>
 
-        
-        <!-- Optional JavaScript -->
+
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
