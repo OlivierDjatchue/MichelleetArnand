@@ -288,3 +288,13 @@ input:invalid {
 .mybtn:focus {
 	outline: none;
 }
+
+/* LOGO */
+
+.brand {
+	font-family: 'Dancing Script';
+	font-size: 3rem;
+	color: white;
+	font-style: italic;
+	font-weight: 400;
+}
