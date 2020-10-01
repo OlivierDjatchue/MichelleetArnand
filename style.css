@@ -53,11 +53,44 @@ body {
 .navbar-dark .navbar-nav .nav-link {
 	font-size: 1.2rem;
 	font-family: "Roboto";
-	color: #fff;
+	color: #eee;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-	-webkit-filter: brightness(50%);
-	filter: brightness(50%);
+	color: #fff;
+}
+
+.navbar-dark .navbar-toggler span {
+	display: block;
+	width: 30px;
+	height: 2px;
+	margin: 6px auto;
+	background: #fff;
+	transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+.navbar-dark .navbar-toggler:hover span,
+.navbar-dark .navbar-toggler:focus span {
+	background: #fff;
+}
+
+/* rotate first span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+	transform: rotate(45deg) translate(6px, 6px);
+}
+
+/* hide second span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+	opacity: 0;
+}
+
+/* rotate third span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+	transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="false"] span {
+	transform: none;
+	opacity: 1;
 }
 
 /* Home section */
@@ -291,4 +324,15 @@ input:invalid {
 	color: white;
 	font-style: italic;
 	font-weight: 400;
+}
+.footer-section {
+	padding: 1rem 0;
+	background-color: #f85032;
+	color: white;
+}
+
+.footer__copyright a {
+	font-style: italic;
+	text-decoration: none;
+	font-size: 1.3rem;
 }
