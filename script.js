@@ -21,8 +21,10 @@ $(document).ready(function() {
 		scroll_pos = $(this).scrollTop();
 		if (scroll_pos > 300) {
 			$('.navbar').css('background-color', '#F85030');
+			$('.navbar').addClass('fixed-top');
 		} else {
 			$('.navbar').css('background-color', '');
+			$('.navbar').removeClass('fixed-top');
 		}
 	});
 });
